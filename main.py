@@ -4,7 +4,7 @@ from urllib import response
 from telegram import Update
 from telegram.ext import Application, CommandHandler, filters, ContextTypes, MessageHandler
 
-with open('token.csv', "r") as token_file:
+with open('token.txt', "r") as token_file:
     token = token_file.readline()
 
 TOKEN: Final = token
